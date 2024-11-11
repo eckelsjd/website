@@ -1,0 +1,64 @@
+{% extends "main.html" %}
+
+{% block styles %}
+  <link rel="stylesheet" href="stylesheets/about.css">
+  {{ super() }}
+{% endblock %}
+
+{% block scripts %}
+  <script src="https://kit.fontawesome.com/455adcecf0.js" crossorigin="anonymous"></script>
+  {{ super() }}
+{% endblock %}
+
+{% block content %}
+<div class="maincontent">
+    <div class="sidebar-container">
+        <div class="sidebar">
+            <p><img src="assets/profile.png" alt="Profile Picture" class="profile"></p>
+            <h1>Joshua Eckels</h1>
+            <h2>University of Michigan</h2>
+            <h3>PhD student in Aerospace Engineering</h3>
+            <div class="social-links">
+                <a href="https://github.com/eckelsjd" class="git" target="_blank" rel="noopener noreferrer" style="color: inherit;" title="Github"><i class="fa-brands fa-github fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/eckelsjd" class="linkedin" target="_blank" rel="noopener noreferrer" style="color: inherit;" title="Linked In"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                <a href="mailto:eckelsjd@umich.edu" class="gmail" target="_blank" rel="noopener noreferrer" style="color: inherit;" title="E-mail"><i class="fa-regular fa-envelope fa-2x"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="about-container">
+        <div class="about-content">
+            <div style="float: right">
+                <a href="resume/cv.pdf" target="_blank" rel="noopener noreferrer"> Export CV <i class="fa-regular fa-file-pdf"></i></a>
+            </div>
+            <h1>About me</h1>
+            <div class="underline"></div>
+            <p> I am currently pursuing a PhD in Aerospace Engineering at the University of Michigan. My research is focused on predictive modeling and uncertainty quantification for electric propulsion applications. Member of the Joint Advanced Propulsion Institute (JANUS), a <a href="https://januselectricpropulsion.com/" target="_blank" rel="noopener noreferrer"> NASA space technology research institute</a> pursuing high-power electric propulsion thrusters for deep-space missions.</p>
+            <h2>Education</h2>
+            <p><strong>University of Michigan</strong>, PhD Aerospace Engineering<span class="date">2021-2026</span><br><strong>Rose-Hulman Institute of Technology</strong>, BS Mechanical Engineering<span class="date">2021</span></p>
+            <h2>Experience</h2>
+            {% for experience in page.meta.experiences %}
+            <p style="margin-bottom: 0px;">
+                <img src="assets/{{ experience.logo }}" alt="{{ experience.company }}" class="logo">
+                <strong>{{ experience.company }}</strong>, {{ experience.location }}<span class="date">{{ experience.year }}</span>
+                <br>
+                {{ experience.role }}
+            </p>
+            <ul style="margin-top: 0px;"><li>{{ experience.description }}</li></ul>
+            {% endfor %}
+            <h2>News</h2>
+            <table style="border: 0;">
+                {% for event in page.meta.news %}
+                <tr><td class="date-cell" style="padding-left: 0; padding-right: 0;">{{ event.date }}</td>
+                    <td style="padding-left: 9px;">
+                        <strong>
+                            <a target="_blank" rel="noopener noreferrer" href="{{ event.link }}">{{ event.event }}</a>
+                        </strong>
+                        {{ event.description }}
+                    </td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}

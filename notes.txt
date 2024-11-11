@@ -1,16 +1,24 @@
 -- can later get a custom domain name
--- override cool homepage or index.md like https://deepdeck.co
-   -- check teddywarner.org as well
-   -- featured projects, some animation, quick "about me" section
-   -- links to pypi, github, linkedin, buymeacoffee
--- mkdocs-git-revision-date-localized-plugin and comments/was this helpful
--- resume and cv in markdown and separate tab with downloadable pdfs
--- projects tab like teddy warner with social cards giving one image,
-   a brief description, and links to "read more" pages for each project
-   -- some can link to different websites (like playlist brew or
-      bs-engineering where there is something to buy)
-   -- others can link to "blog" posts on main site that give estimated
-      read time and more details about the project
-   -- printable pdf "overview" page for this would be nice too
-   -- one project can be old Rose projects lumped in git repo
--- latex math can be done in markdown (don't need .tex or overleaf)
+
+Repos:
+- chessbot cleanup
+- deep waves cleanup and public
+- access mapping
+- bubble bobble (and demo)
+- old-rose org
+
+600 x 338 px size for demos/images on project page
+- chessbot blog post
+- deep waves blog post
+- access mapping blog post
+- bubble bobble blog post
+- summary of old rose projects
+
+Projects
+- May 2021 - Chessbot
+- July 2020 - ASSESS (lanl)
+- July 2019 - accessibility constraint mapping (vt)
+- August 2018 - Bubble Bobble
+- June 2017 - Guitar chair
+- December 2016 - Xylophone
+- 2017-2021 - Rose-Hulman assorted projects (MIPS, matlab solvers, shell, robotics, etc.)

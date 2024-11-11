@@ -1,22 +1,15 @@
 [project]
 name = "website"
 version = "0.1.0"
-description = "Template for a pdm project for uncertainty quantification and scientific computing"
+description = "Personal website"
 authors = [
     {name = "Joshua Eckels", email = "eckelsjd@umich.edu"},
 ]
 dependencies = [
 ]
-requires-python = "==3.11.*"
-readme = "docs/README.md"
-license = {text = "GPLv3"}
-keywords = []
-classifiers = [
-    "Development Status :: 3 - Alpha",
-    "Programming Language :: Python :: 3",
-    "Operating System :: OS Independent",
-    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)"
-]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "GPL-3.0"}
 
 [project.urls]
 Repository = "https://github.com/eckelsjd/website.git"
@@ -28,6 +21,9 @@ ignore-paths = [ "^.venv/.*$", "^docs/*" ]
 [tool.pdm]
 distribution = false
 
+[tool.pdm.install]
+cache = true
+
 [tool.pdm.scripts]
 post_init = "pdm install"
 docs = "mkdocs serve"
@@ -35,8 +31,5 @@ docs = "mkdocs serve"
 [tool.pdm.dev-dependencies]
 dev = [
     "mkdocs>=1.5.3",
-    "mkdocs-material>=9.5.5",
-    "mkdocstrings[python]>=0.24.0",
-    "mkdocs-git-revision-date-localized-plugin>=1.2.4",
-    "mkdocs-git-authors-plugin>=0.8.0",
+    "mkdocs-material>=9.5.5"
 ]

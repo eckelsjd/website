@@ -2,15 +2,16 @@ site_name: Joshua Eckels website
 site_url: https://eckelsjd.github.io/website/
 site_author: Joshua Eckels
 repo_name: eckelsjd/website
-repo_url: https://github.com/eckelsjd/website.git
+repo_url: https://github.com/eckelsjd/website
 copyright: Copyright &copy 2024 Joshua Eckels
 
 theme:
   name: material
+  custom_dir: docs/templates
   logo: assets/logo.svg
   favicon: assets/logo.svg
   palette:
-    primary: custom
+    primary: black
     accent: custom
   font:
     text: Roboto
@@ -18,12 +19,12 @@ theme:
   features:
     - navigation.footer
     - navigation.instant
-    - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.sections
+    - navigation.indexes
     - navigation.expand
     - navigation.top
     - navigation.tracking
+    - navigation.tabs
     - search.highlight
     - search.share
     - search.suggest
@@ -32,11 +33,13 @@ theme:
 plugins:
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-  - blog
-  - tags
-  - git-authors
-  - git-revision-date-localized:
-      enable_creation_date: true
+  - blog:
+      blog_dir: posts
+      blog_toc: true
+      categories_allowed:
+        - Projects
+        - Tutorials
+        - Interesting
 
 extra:
   social:
@@ -56,24 +59,28 @@ extra_javascript:
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/about.css
 
 markdown_extensions:
   - admonition
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.smartsymbols
   - pymdownx.superfences
   - md_in_html
+  - attr_list
   - pymdownx.emoji:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
       emoji_index: !!python/name:material.extensions.emoji.twemoji
 
 nav:
   - About:
-      - Home: about.md
-  - Resume:
-      - Resume: resume/resume.md
-      - Research: resume/cv.md
-      - Downloads: resume/downloads.md
+      - About: index.md
   - Projects:
-      - Home: projects.md
+      - Projects: projects.md
+  - Posts:
+      - posts/index.md
