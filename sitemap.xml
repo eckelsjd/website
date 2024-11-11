@@ -2,37 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://eckelsjd.github.io/website/</loc>
-         <lastmod>2024-04-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://eckelsjd.github.io/website/about/</loc>
-         <lastmod>2024-04-20</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://eckelsjd.github.io/website/projects/</loc>
-         <lastmod>2024-04-20</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://eckelsjd.github.io/website/resume/cv/</loc>
-         <lastmod>2024-04-20</lastmod>
+         <loc>https://eckelsjd.github.io/website/posts/</loc>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://eckelsjd.github.io/website/resume/downloads/</loc>
-         <lastmod>2024-04-20</lastmod>
+         <loc>https://eckelsjd.github.io/website/posts/2019/08/01/happy-new-years-eve/</loc>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://eckelsjd.github.io/website/resume/resume/</loc>
-         <lastmod>2024-04-20</lastmod>
+         <loc>https://eckelsjd.github.io/website/posts/2021/05/05/chess-robot/</loc>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://eckelsjd.github.io/website/blog/</loc>
-         <lastmod>2024-04-20</lastmod>
+         <loc>https://eckelsjd.github.io/website/posts/2022/12/28/electrospray-thruster-design/</loc>
+         <lastmod>2024-11-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://eckelsjd.github.io/website/posts/2024/09/27/predictive-hall-thruster-modeling/</loc>
+         <lastmod>2024-11-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://eckelsjd.github.io/website/posts/2021/07/31/high-voltage-battery-firmware/</loc>
+         <lastmod>2024-11-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://eckelsjd.github.io/website/posts/archive/2024/</loc>
+         <lastmod>2024-11-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://eckelsjd.github.io/website/posts/archive/2022/</loc>
+         <lastmod>2024-11-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://eckelsjd.github.io/website/posts/archive/2021/</loc>
+         <lastmod>2024-11-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://eckelsjd.github.io/website/posts/archive/2019/</loc>
+         <lastmod>2024-11-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://eckelsjd.github.io/website/posts/category/projects/</loc>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

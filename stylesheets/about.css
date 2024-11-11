@@ -1,0 +1,156 @@
+.profile {
+    margin-bottom: -12px;
+    width: 255px;
+    height: 255px;
+    border-radius: 50%;
+}
+
+.maincontent {
+    height: 100%;
+    width: 100%;
+}
+
+.sidebar-container {
+    height: 100vh;
+    width: 100%;
+}
+
+.sidebar {
+    width: 100%;
+    position: sticky;
+    top: 112px;
+    left: -22em;
+    height: auto;
+    text-align: center;
+}
+
+.sidebar h1 {
+    margin-bottom: -37px;
+}
+
+.sidebar h2 {
+    margin-bottom: -14px;
+}
+
+.about-content h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.social-links {
+    margin-top: 15px;
+}
+
+.linkedin {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.fa-linkedin:hover {
+    color: #0e76a8;
+}
+
+.git {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.fa-github:hover {
+    color: #6f2b93;
+}
+
+.gmail {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.fa-envelope:hover {
+    color: #f73f2f;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2em;
+    overflow-y: auto;
+}
+
+.about-content {
+    padding: 2em 0;
+}
+
+.logo {
+    float: left;
+    margin-right: 9px;
+}
+
+.date-cell {
+    width: 70px;
+}
+
+.underline {
+    height: 4.5px;
+    width: 55px;
+    background-color: #800000;
+    margin-top: -35px;
+    border-radius: 5px;
+}
+
+.date {
+    float: right;
+    text-align: right;
+    color: inherit
+}
+
+@media (min-width: 68em) {
+    .maincontent {
+        display: flex;
+        height: 100%;
+        min-height: 40em;
+    }
+}
+.maincontent > *:first-child {
+    position: relative;
+    height: 23.5em;
+}
+@media (min-width: 30em) {
+    .maincontent > *:first-child {
+        height: 23.5em;
+    }
+}
+@media (min-width: 68em) {
+    .maincontent > *:first-child {
+        flex-basis: 50%;
+        max-width: 50%;
+        height: auto;
+    }
+}
+@media (min-width: 35em) {
+    .maincontent > *:last-child {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}
+@media (min-width: 76.5em) {
+    .maincontent > *:last-child {
+        flex-basis: 85%;
+        max-width: 85%;
+    }
+}
+@media (max-height: 40em) {
+    .sidebar {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: auto;
+    }
+}
+@media (max-width: 68em) {
+    .sidebar {
+        position: absolute;
+        top: -25px;
+        left: 0;
+    }
+}
