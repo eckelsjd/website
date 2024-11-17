@@ -9,7 +9,7 @@ categories:
 
 Hall thrusters are a form of in-space electric propulsion in which a plasma discharge is maintained using crossed electric and magnetic (i.e. $\mathbf{E}\times \mathbf{B}$) fields. Hall thrusters have exploded in popularity in recent years due to their high efficiency and low cost. One of the primary challenges in Hall thruster development is accurately modeling the discharge plasma, especially with respect to the poorly understood physics of electron transport and the coupling of the thruster to its testing environment. These and other related issues introduce large uncertainties to model predictions and prevent the applicability of ground-test data to in-space operation. The ongoing work of the [JANUS institute](https://aero.engin.umich.edu/2021/05/06/michigan-on-team-selected-for-15m-nasa-institute-to-investigate-testing-of-advanced-propulsion-concepts/) is to develop a predictive model of the Hall thruster operating in a vacuum chamber and to reliably make confidence-bounded estimates of in-space performance.
 
-![Hall thruster model diagram](../../assets/pem-diagram.svg)
+![Hall thruster model diagram](../../assets/demo/pem-diagram.svg)
 
 **Fig 1.** The predictive Hall thruster modeling framework (Eckels et al. 2024).
 
@@ -33,7 +33,7 @@ Hall thrusters are a form of in-space electric propulsion in which a plasma disc
 
 This is an ongoing research project within the JANUS institute. Our most recent results are reported in the Journal of Electric Propulsion (see linked article above). We have calibrated a simple cathode-thruster-plume feedforward model on data for the SPT-100 thruster and reduced uncertainty from the prior distributions. However, our model still shows significant discrepancy with experimental data, including in the extrapolation regions. See for example our predictions of discharge current (copied from the journal article):
 
-![Discharge current](../../assets/discharge-current.png)
+![Discharge current](../../assets/projects/discharge-current.png)
 
 **Fig 2.** Improvement in predictions of discharge current from the prior to the posterior (Eckels et al. 2024).
 

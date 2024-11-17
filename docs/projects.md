@@ -37,7 +37,7 @@ projects:
   - name: HV battery testing
     description: Python automation of EV battery testing
     image: tesla-preview.png
-    link: ../posts/2021/07/31/high-voltage-battery-firmware/
+    link: ../posts/2021/07/31/high-voltage-battery-firmware
 
   - name: Chess robot
     description: Chess-playing bot using Arduino and Raspberry Pi
@@ -46,21 +46,21 @@ projects:
 
   - name: ASSESS
     description: Neural networks for ultrasonic defect detection
-    image: um-logo.svg
-    link: https://google.com
-
+    image: assess-demo2.gif
+    link: ../posts/2020/08/25/neural-networks-for-ultrasonic-defect-detection
+    
   - name: Accessibility mapping
-    description: Neural networks for navigation constraint detection
-    image: um-logo.svg
-    link: https://google.com
+    description: Neural networks for nav constraint detection
+    image: access-demo.gif
+    link: ../posts/2019/08/01/accessibility-constraint-mapping
 
   - name: Bubble Bobble
     description: Java implementation of classic 8-bit arcade game
-    image: um-logo.svg
-    link: https://google.com
+    image: bubble-demo.gif
+    link: ../posts/2018/12/10/bubble-bobble
 
   - name: Rose-Hulman
     description: Old programming projects
-    image: um-logo.svg
+    image: amisc-logo.svg
     link: https://google.com
 ---

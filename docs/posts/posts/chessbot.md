@@ -9,7 +9,7 @@ categories:
 
 **Introducing:** the chess-playing robot that will defeat any opponent who challenges it (mostly because, you know.. Stockfish). The robot is composed of a sleek metal frame and a sturdy acrylic playing surface with a laser-engraved chessboard. A gantry system powered by stepper motors and timing belts moves a claw-like gripper around the board to enact the will of its chess engine AI. Roughly the size of a coffee table and noticeably heavier, this bot is sure to fill out your _entire_ living room with a family-friendly competitive atmosphere.
 
-![Chess robot](../../assets/chessbot.png)
+![Chess robot](../../assets/projects/chessbot.png)
 
 **Fig 1.** The Chess robot in its natural environment (circa 2021).
 
@@ -32,7 +32,7 @@ categories:
 - Laser-engraved acrylic chess board
 - Full-size chessboard (which doubles as a coffee table when not in use :coffee:)
 
-![Chess robot highlights](../../assets/chessbot-highlights.png)
+![Chess robot highlights](../../assets/projects/chessbot-highlights.png)
 
 **Fig 2.** The chess robot gripper (upper left), controller (lower left), and gantry movement system (right).
 

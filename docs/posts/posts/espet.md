@@ -9,7 +9,7 @@ categories:
 
 Electrospray thrusters produce thrust by extracting and accelerating liquid ionic droplets from a porous substrate using a strong applied electric field. The task of scaling electrospray thrusters to missions with higher thrust requirements is one of seeking robust designs in the presence of high manufacturing uncertainties in the extractor grid and porous substrate. This project explored Bayesian methods for aiding electrospray thruster design in light of these manufacturing uncertainties.
 
-![AFET-2 thruster](../../assets/afet2.png)
+![AFET-2 thruster](../../assets/projects/afet2.png)
 
 **Fig 1.** The AFET-2 electrospray thruster (Natisan et al. 2020).
 
@@ -30,7 +30,7 @@ Electrospray thrusters produce thrust by extracting and accelerating liquid ioni
 - Explore the electrospray design space using a neural network surrogate.
 - Apply optimal experimental design (OED) for calibrating an electrospray current emission model.
 
-![ESPET preview](../../assets/espet-preview.svg)
+![ESPET preview](../../assets/demo/espet-preview.svg)
 
 **Fig 2.** Electrospray array current emission model.
 

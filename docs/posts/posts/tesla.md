@@ -9,7 +9,7 @@ categories:
 
 As part of a summer internship at Tesla on the battery firmware subteam, a series of upgrades to the battery testing infrastructure were underway. A new suite of tests were being developed for the newest Model 3 and semi-truck battery packs. The battery firmware is responsible for interfacing with the vehicle CAN networks, including intercepting and responding to messages involved with charging and discharging the battery, as well as monitoring the battery's state of charge, temperature, performance, and long-term health. Testing the battery firmware involves simulating the vehicle CAN signals to run repeated cycles of charging and discharging, and to purposely fault the system to ensure proper shutdown and recovery.
 
-![High-voltage EV battery](../../assets/tesla-preview.png)
+![High-voltage EV battery](../../assets/demo/tesla-preview.png)
 
 **Fig 1.** A high-voltage electric vehicle (EV) battery on a testing stand.
 

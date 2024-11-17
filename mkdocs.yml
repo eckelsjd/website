@@ -8,8 +8,8 @@ copyright: Copyright &copy 2024 Joshua Eckels
 theme:
   name: material
   custom_dir: docs/templates
-  logo: assets/logo.svg
-  favicon: assets/logo.svg
+  logo: assets/logo/logo.svg
+  favicon: assets/logo/logo.svg
   palette:
     primary: black
     accent: custom
