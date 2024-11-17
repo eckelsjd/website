@@ -17,7 +17,7 @@
       
       
       
-      <link rel="icon" href="../../../../../assets/logo.svg">
+      <link rel="icon" href="../../../../../assets/logo/logo.svg">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.5">
     
     
@@ -92,7 +92,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../../../../.." title="Joshua Eckels website" class="md-header__button md-logo" aria-label="Joshua Eckels website" data-md-component="logo">
       
-  <img src="../../../../../assets/logo.svg" alt="logo">
+  <img src="../../../../../assets/logo/logo.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -280,7 +280,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="../../../../.." title="Joshua Eckels website" class="md-nav__button md-logo" aria-label="Joshua Eckels website" data-md-component="logo">
       
-  <img src="../../../../../assets/logo.svg" alt="logo">
+  <img src="../../../../../assets/logo/logo.svg" alt="logo">
 
     </a>
     Joshua Eckels website
@@ -513,6 +513,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -626,11 +630,57 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../../archive/2020/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2020
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
       <a href="../../../../archive/2019/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     2019
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../archive/2018/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2018
   </span>
   
 
@@ -880,7 +930,7 @@
 
 <h1 id="predictive-hall-thruster-modeling">Predictive Hall thruster modeling</h1>
 <p>Hall thrusters are a form of in-space electric propulsion in which a plasma discharge is maintained using crossed electric and magnetic (i.e. <span class="arithmatex">\(\mathbf{E}\times \mathbf{B}\)</span>) fields. Hall thrusters have exploded in popularity in recent years due to their high efficiency and low cost. One of the primary challenges in Hall thruster development is accurately modeling the discharge plasma, especially with respect to the poorly understood physics of electron transport and the coupling of the thruster to its testing environment. These and other related issues introduce large uncertainties to model predictions and prevent the applicability of ground-test data to in-space operation. The ongoing work of the <a href="https://aero.engin.umich.edu/2021/05/06/michigan-on-team-selected-for-15m-nasa-institute-to-investigate-testing-of-advanced-propulsion-concepts/">JANUS institute</a> is to develop a predictive model of the Hall thruster operating in a vacuum chamber and to reliably make confidence-bounded estimates of in-space performance.</p>
-<p><img alt="Hall thruster model diagram" src="../../../../../assets/pem-diagram.svg" /></p>
+<p><img alt="Hall thruster model diagram" src="../../../../../assets/demo/pem-diagram.svg" /></p>
 <p><strong>Fig 1.</strong> The predictive Hall thruster modeling framework (Eckels et al. 2024).</p>
 <!-- more -->
 
@@ -900,7 +950,7 @@
 </ul>
 <h2 id="current-status">Current status</h2>
 <p>This is an ongoing research project within the JANUS institute. Our most recent results are reported in the Journal of Electric Propulsion (see linked article above). We have calibrated a simple cathode-thruster-plume feedforward model on data for the SPT-100 thruster and reduced uncertainty from the prior distributions. However, our model still shows significant discrepancy with experimental data, including in the extrapolation regions. See for example our predictions of discharge current (copied from the journal article):</p>
-<p><img alt="Discharge current" src="../../../../../assets/discharge-current.png" /></p>
+<p><img alt="Discharge current" src="../../../../../assets/projects/discharge-current.png" /></p>
 <p><strong>Fig 2.</strong> Improvement in predictions of discharge current from the prior to the posterior (Eckels et al. 2024).</p>
 <p>We have made several suggestions for improving the model, including revisions to the anomalous transport closure and the coupling between the discharge channel and the plume. We also hope to link a new downstream model for predicting carbon sputter in the vacuum chamber.</p>
 <h2 id="contributions">Contributions</h2>
