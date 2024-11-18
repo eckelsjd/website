@@ -61,6 +61,6 @@ projects:
 
   - name: Rose-Hulman
     description: Old programming projects
-    image: amisc-logo.svg
-    link: https://google.com
+    image: rose-hulman.jpg
+    link: https://github.com/eckelsjd-rose-old
 ---

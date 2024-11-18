@@ -81,6 +81,6 @@ nav:
   - About:
       - About: index.md
   - Projects:
-      - Projects: projects.md
+      - Projects: projects.md  # 600 x 338 px size for demos/images on project page
   - Posts:
       - posts/index.md
