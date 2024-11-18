@@ -2,87 +2,97 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://eckelsjd.github.io/website/</loc>
-         <lastmod>2024-11-17</lastmod>
+         <lastmod>2024-11-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://eckelsjd.github.io/website/projects/</loc>
-         <lastmod>2024-11-17</lastmod>
+         <lastmod>2024-11-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://eckelsjd.github.io/website/posts/</loc>
-         <lastmod>2024-11-17</lastmod>
+         <lastmod>2024-11-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://eckelsjd.github.io/website/posts/2019/08/01/accessibility-constraint-mapping/</loc>
-         <lastmod>2024-11-17</lastmod>
+         <lastmod>2024-11-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://eckelsjd.github.io/website/posts/2020/08/25/neural-networks-for-ultrasonic-defect-detection/</loc>
-         <lastmod>2024-11-17</lastmod>
+         <lastmod>2024-11-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://eckelsjd.github.io/website/posts/2018/12/10/bubble-bobble/</loc>
-         <lastmod>2024-11-17</lastmod>
+         <lastmod>2024-11-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://eckelsjd.github.io/website/posts/2021/05/05/chess-robot/</loc>
-         <lastmod>2024-11-17</lastmod>
+         <lastmod>2024-11-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://eckelsjd.github.io/website/posts/2022/12/28/electrospray-thruster-design/</loc>
-         <lastmod>2024-11-17</lastmod>
+         <lastmod>2024-11-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://eckelsjd.github.io/website/posts/2017/05/28/guitar-stool/</loc>
+         <lastmod>2024-11-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://eckelsjd.github.io/website/posts/2024/09/27/predictive-hall-thruster-modeling/</loc>
-         <lastmod>2024-11-17</lastmod>
+         <lastmod>2024-11-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://eckelsjd.github.io/website/posts/2021/07/31/high-voltage-battery-firmware/</loc>
-         <lastmod>2024-11-17</lastmod>
+         <lastmod>2024-11-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://eckelsjd.github.io/website/posts/archive/2024/</loc>
-         <lastmod>2024-11-17</lastmod>
+         <lastmod>2024-11-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://eckelsjd.github.io/website/posts/archive/2022/</loc>
-         <lastmod>2024-11-17</lastmod>
+         <lastmod>2024-11-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://eckelsjd.github.io/website/posts/archive/2021/</loc>
-         <lastmod>2024-11-17</lastmod>
+         <lastmod>2024-11-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://eckelsjd.github.io/website/posts/archive/2020/</loc>
-         <lastmod>2024-11-17</lastmod>
+         <lastmod>2024-11-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://eckelsjd.github.io/website/posts/archive/2019/</loc>
-         <lastmod>2024-11-17</lastmod>
+         <lastmod>2024-11-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://eckelsjd.github.io/website/posts/archive/2018/</loc>
-         <lastmod>2024-11-17</lastmod>
+         <lastmod>2024-11-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://eckelsjd.github.io/website/posts/archive/2017/</loc>
+         <lastmod>2024-11-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://eckelsjd.github.io/website/posts/category/projects/</loc>
-         <lastmod>2024-11-17</lastmod>
+         <lastmod>2024-11-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
